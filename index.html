@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portfolio</title>
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Navbar (MENU)     -->
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="logo "width="50""">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mt-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home" aria-current="page"><i class="fa-solid fa-home"></i>  Home <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profile"><i class="fa-solid fa-user"></i> Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills"><i class="fa-solid fa-star"></i>  Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio"><i class="fa-solid fa-th"></i>  Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><i class="fa-solid fa-phone"></i>  Contact</a>
+                    </li>
+                </ul>
+            </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar (MENU) -->
+
+    <!-- Jumbo Tron -->
+    <div id="home" class="p-5 mb-4 bg-light rounded-3">
+        <div class="container py-5">
+          <h1 class="display-5 fw-bold">I am <span class="text-secondary" >Syahira Ramadhani</span></h1>
+          <p class="col-md-8 fs-4">A Programer,Web Desainer,Teacher,Gamer, Reader, And Student</p>
+          <button class="btn btn-outline-dark btn-md" type="button"><i class="fa-solid fa-cloud"></i> About Me</button>
+        </div>
+      </div>
+    <!-- Akhir Jumbo Tron -->
+
+
+    <!-- Carousel -->
+      <div class="container">
+        <div id="profile" class="row">
+            <div class="col-lg-6">
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="img/kawai anya1.jpg" class="w-100 d-block" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>anya</h3>
+                                <p>Description</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/happy anya.jpg" class="w-100 d-block" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>lovely</h3>
+                                <p>Description</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/picky anya.jpg" class="w-100 d-block" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>picture</h3>
+                                <p>Description</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div> 
+            <div class="col-lg-6">
+                <h1 class="display-4">About Me</h1>
+                <dl class="row">
+                    <dt class="col-sm-3"> <i class="far fa-user" ></i> Nama</dt>
+                    <dd class="col-sm-9">:Syahira Ramadhani</dd>
+                    <dt class="col-sm-3"> <i class="far fa-id-card" ></i> Panggilan</dt>
+                    <dd class="col-sm-9">:Syahira</dd>
+                    <dt class="col-sm-3"> <i class="far fa-calendar" ></i> Tgl lahir</dt>
+                    <dd class="col-sm-9">:23 january 2030</dd>
+                    <dt class="col-sm-3"> <i class="fas fa-location" ></i> Alamat</dt>
+                    <dd class="col-sm-9">:Payakumbuh</dd>
+                    <dt class="col-sm-3"> <i class="fas fa-cloud" ></i> Hobi</dt>
+                    <dd class="col-sm-9">:membaca</dd>
+                    <dt class="col-sm-3"> <i class="fa fa-building" ></i> Asal Sekolah</dt>
+                    <dd class="col-sm-9">:SMP Islam Raudhatul jannah</dd>
+                </dl>
+                <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-lines-leaning"></i>  Read More......</button>
+                
+            </div>
+        </div>
+      </div>
+    <!-- Akhir Carousel -->
+
+
+    <!-- Quote -->
+    <figure class="text-center mt-5 mb-5 ">
+        <blockquote class="blockquote">
+            <p>Coba saja dulu mana tau kita berhasil</p>
+         </blockquote>
+        <figcaption class="blockquote-footer">
+            Shen liao
+        </figcaption>
+    </figure>
+    <!-- Akhur Quote -->
+    
+    <!-- Progress -->
+    <h1 id="skills" class="display-4 text-center ">Skill</h1>
+    <div class="container">
+        <div class="progress mb-3 ">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 70%;"
+                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">HTML</div>
+        </div>
+        <div class="progress mb-3 ">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 40%;"
+                aria-valuenow="40%" aria-valuemin="0" aria-valuemax="100">JAVA SCRIPT</div>
+        </div>
+        <div class="progress mb-3 ">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;"
+                aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100">CSS</div>
+        </div>
+        <div class="progress mb-3 ">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 100%;"
+                aria-valuenow="100%" aria-valuemin="0" aria-valuemax="100">Mencintai karakter fiksi</div>
+        </div>
+    </div>
+    <!-- Akhir Progress -->
+
+    <!-- dari Portfolio -->
+    <h1 id="portfolio" class="display-4 text-center mb-5 ">Portfolio</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/kawai anya1.jpg" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Title</h4>
+                        <p class="card-text">Text</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/happy anya.jpg" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Title</h4>
+                        <p class="card-text">Text</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/picky anya.jpg" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Title</h4>
+                        <p class="card-text">Text</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/kawai anya1.jpg" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Title</h4>
+                        <p class="card-text">Text</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/happy anya.jpg" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Title</h4>
+                        <p class="card-text">Text</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/picky anya.jpg" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Title</h4>
+                        <p class="card-text">Text</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir dari Portfolio -->
+    
+
+    <!-- Contact -->
+    <div id="contact" class="container my-5 ">
+        <section class="text-center dark-gray-text" >
+            <div class="card">
+                <div class="card-body rounded-top border-top p-5 ">
+                    <h3 class="font-weight-bold my-4" >Contact</h3>
+                    <p>Hubungi atau kirimkan saya pesan!</p>
+                    <form class="mb-4 mx-mb-5" action="" method="post">
+                        <!-- Baris 1 -->
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                  <input type="text"
+                                    class="form-control" name="" id="" aria-describedby="helpId" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <input type="text"
+                                      class="form-control" name="" id="" aria-describedby="helpId" placeholder="Email">
+                                  </div>
+                            </div>
+                        </div>
+                        <!-- Baris 2 -->
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="mb-3">
+                                    <input type="text"
+                                      class="form-control" name="" id="" aria-describedby="helpId" placeholder="Subject">
+                                  </div>
+                            </div>
+                        </div>
+                        <!-- Baris 3 -->
+                        <div class="row">
+                            <div class="mb-3">
+                              <textarea class="form-control" name="" id="" rows="3" placeholder="Input Your Message..." ></textarea>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-download"></i>  Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer class="footer text-center "  >
+        <div class="container">
+            <div class="footer-copyright">
+                copyright &copy; Syahira Ramadhani 2022
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+    
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="src/fontawsome/css/all.css">
+    <!-- AkhirFontawsome -->
+    
+    
+    
+    
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <script src="src/js/bootstrap.min.js"></script>
+</body>
+</html>
